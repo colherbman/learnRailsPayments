@@ -14,6 +14,8 @@ gem 'rails', '~> 5.1.4'
 gem 'sqlite3', group: [:development, :test]
 #Postgres production database
 gem 'pg', group: :production
+#pagos con stripe
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 #Twitter Bootstrap
 gem 'bootstrap-sass'
 #12 Factor Heroku
