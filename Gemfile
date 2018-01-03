@@ -20,6 +20,8 @@ gem 'figaro'
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 #Twitter Bootstrap
 gem 'bootstrap-sass'
+#gem emails
+gem 'letter_opener', group: :development
 #12 Factor Heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
