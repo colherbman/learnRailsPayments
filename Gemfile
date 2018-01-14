@@ -18,6 +18,11 @@ gem 'pg', group: :production
 gem 'figaro'
 #pagos con stripe
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
+#active admin
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+#devise user authentication
+gem 'devise'
 #Twitter Bootstrap
 gem 'bootstrap-sass'
 #gem emails
